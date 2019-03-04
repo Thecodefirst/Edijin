@@ -1,0 +1,4916 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031}}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000322}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000326}}
+html,
+body {
+  min-width: 1200px;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000330}}
+body {
+  line-height: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000333}}
+ol,
+ul {
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000336}}
+blockquote,
+q {
+  quotes: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000339}}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000344}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000348}}
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000352}}
+img {
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000360}}
+.pointer {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000363}}
+.fix_window {
+  padding-right: 17px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000367}}
+.banner_pic {
+  width: 100%;
+  height: 417px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000372}}
+div.pinpai_common {
+  width: 1198px;
+  height: 42px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000377}}
+div.pinpai_common span {
+  width: 114px;
+  height: 100%;
+  color: #333;
+  float: left;
+  text-align: center;
+  line-height: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000385}}
+div.pinpai_common .choose {
+  background: #15213d;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000389}}
+div.pinpai_common b {
+  color: #a0a0a0;
+  font-size: 12px;
+  float: right;
+  height: 42px;
+  line-height: 42px;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\0000398}}
+div.components_header {
+  width: 100%;
+  min-width: 1200px;
+  height: 206px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003103}}
+div.components_header .a {
+  width: 100%;
+  height: 36px;
+  background-color: #fafafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003108}}
+div.components_header .b {
+  width: 1200px;
+  height: 206px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -600px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003115}}
+div.components_header .b div:first-of-type {
+  font-size: 12px;
+  color: #666;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003119}}
+div.components_header .b div:first-of-type p {
+  cursor: pointer;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003125}}
+div.components_header .b div:first-of-type p:first-of-type {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003128}}
+div.components_header .b div:first-of-type p:last-of-type {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003132}}
+div.components_header .b div.user_info {
+  width: 360px;
+  height: 0;
+  position: absolute;
+  top: 30px;
+  right: -140px;
+  z-index: 9;
+  background-color: #fff;
+  box-shadow: -1px 1px 7px 0px #bdbdbd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003141}}
+div.components_header .b div.user_info a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-top: 110px;
+  margin-left: 40px;
+  margin-right: 23px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003149}}
+div.components_header .b div.user_info a span {
+  position: absolute;
+  top: 56px;
+  left: -13px;
+  width: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003156}}
+div.components_header .b div.user_info span {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003159}}
+div.components_header .b div.user_info button {
+  background-color: transparent;
+  border: 1px solid #eee;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #999999;
+  font-size: 12px;
+  outline: 0;
+  position: absolute;
+  top: 40px;
+  left: 252px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003172}}
+div.components_header .b div:nth-of-type(2) {
+  overflow: hidden;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003175}}
+div.components_header .b div:nth-of-type(2) input {
+  position: absolute;
+  top: 26px;
+  height: 26px;
+  left: 790px;
+  width: 350px;
+  border: none;
+  outline: none;
+  line-height: 26px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003185}}
+div.components_header .b div:nth-of-type(2) a {
+  position: absolute;
+  top: 21px;
+  left: 1150px;
+  width: 49px;
+  height: 34px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003193}}
+div.components_header .b img.logo {
+  margin-top: 8px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003197}}
+div.components_header .b img.searchinput {
+  float: right;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003201}}
+div.components_header .b div.changeCity {
+  float: left;
+  width: 370px;
+  margin-top: 14px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003207}}
+div.components_header .b div.changeCity span:first-of-type {
+  letter-spacing: 2px;
+  line-height: 29px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003212}}
+div.components_header .b ul {
+  margin-top: 24px;
+  height: 65px;
+  font-size: 14px;
+  color: #333;
+  width: 1110px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003219}}
+div.components_header .b ul img {
+  position: absolute;
+  top: 0;
+  left: 800;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003222}}
+div.components_header .b ul li {
+  float: left;
+  height: 30px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003227}}
+div.components_header .b ul li:nth-of-type(3n+1) {
+  color: #15213d;
+  font-weight: bold;
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003232}}
+div.components_header .b ul li:nth-of-type(3n) {
+  margin-right: 52px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003235}}
+div.components_header .b ul li:nth-of-type(3n-1) {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003240}}
+div.components_header div.sign {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003248}}
+div.components_header div.sign div {
+  width: 460px;
+  height: 438px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -230px;
+  margin-top: -219px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003260}}
+div.components_headersub {
+  width: 100%;
+  min-width: 1200px;
+  height: 199px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003265}}
+div.components_headersub .ad {
+  width: 100%;
+  height: 412px;
+  position: absolute;
+  top: 198px;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003272}}
+div.components_headersub .a {
+  width: 100%;
+  height: 36px;
+  background-color: #fafafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003277}}
+div.components_headersub .b {
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -600px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003283}}
+div.components_headersub .b div:first-of-type {
+  font-size: 12px;
+  color: #666;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003287}}
+div.components_headersub .b div:first-of-type p {
+  cursor: pointer;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003293}}
+div.components_headersub .b div:first-of-type p:first-of-type {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003296}}
+div.components_headersub .b div:first-of-type p:last-of-type {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003300}}
+div.components_headersub .b div:nth-of-type(2) {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003303}}
+div.components_headersub .b img.logo {
+  margin-top: 8px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003307}}
+div.components_headersub .b img.searchinput {
+  float: right;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003311}}
+div.components_headersub .b div.changeCity {
+  float: left;
+  width: 370px;
+  margin-top: 14px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003317}}
+div.components_headersub .b div.changeCity span:first-of-type {
+  letter-spacing: 2px;
+  line-height: 29px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003322}}
+div.components_headersub .b div.user_info {
+  box-shadow: inset 0px 0px 5px 0 rgba(0, 0, 0, 0.1);
+  width: 360px;
+  height: 0;
+  position: absolute;
+  top: 30px;
+  right: -140px;
+  z-index: 9;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003333}}
+div.components_headersub .b div.user_info a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-top: 110px;
+  margin-left: 40px;
+  margin-right: 23px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003341}}
+div.components_headersub .b div.user_info a span {
+  position: absolute;
+  top: 56px;
+  left: -13px;
+  width: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003348}}
+div.components_headersub .b div.user_info span {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003351}}
+div.components_headersub .b div.user_info button {
+  background-color: transparent;
+  border: 1px solid #eee;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #999999;
+  font-size: 12px;
+  outline: 0;
+  position: absolute;
+  top: 40px;
+  left: 252px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003365}}
+div.components_headersub .c1 {
+  width: 100%;
+  height: 70px;
+  border-top: 1px solid #eee;
+  position: absolute;
+  top: 128px;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003372}}
+div.components_headersub .c1 div {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003378}}
+div.components_headersub .c1 div span {
+  display: inline-block;
+  width: 77px;
+  height: 100%;
+  line-height: 70px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003385}}
+div.components_headersub .c1 div span.hover {
+  background-color: #15213d;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003389}}
+div.components_headersub .c1 div img {
+  float: right;
+  margin-top: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003397}}
+div.components_footer {
+  width: 100%;
+  min-width: 1200px;
+  height: 220px;
+  background-color: #15213d;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003407}}
+div.components_footer .a {
+  width: 1200px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -600px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003414}}
+div.components_footer .a .logo {
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003419}}
+div.components_footer .a div {
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003421}}
+div.components_footer .a div span {
+  display: inline-block;
+  width: 110px;
+  border-right: 1px solid #999;
+  margin-right: 44px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003427}}
+div.components_footer .a div span:last-of-type {
+  border-right: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003431}}
+div.components_footer .a p:first-of-type {
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003434}}
+div.components_footer .a p:last-of-type {
+  position: absolute;
+  top: 150px;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003439}}
+div.components_sidetool {
+  position: fixed;
+  right: 90px;
+  bottom: 20px;
+  width: 50px;
+  z-index: 9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003445}}
+div.components_sidetool div {
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003449}}
+.M-PagingBox {
+  text-align: center;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003452}}
+.M-PagingBox a,
+.M-PagingBox span {
+  margin: 0 10px 0 10px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid #eee;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+  color: #666666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003463}}
+.M-PagingBox span.active {
+  background-color: #162746;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003469}}
+img.ad {
+  width: 100%;
+  height: 412px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003474}}
+div.home {
+  height: 100%;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003480}}
+div.home .swiperB .swiper-slide img {
+  width: 100%;
+  height: 416px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003486}}
+div.home .swiper-container {
+  width: 100%;
+  min-width: 1200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003490}}
+div.home div.main_container {
+  width: 1200px;
+  margin: 10px auto 100px auto;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003495}}
+div.home div.main_container .province {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003497}}
+div.home div.main_container .province span {
+  float: left;
+  color: #999;
+  font-size: 14px;
+  margin-left: 22px;
+  line-height: 30px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003505}}
+div.home div.main_container .province span:first-of-type {
+  margin-left: 8px;
+  background-color: #cda550;
+  width: 78px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003515}}
+div.home div.main_container .province span.second {
+  margin-left: 34px;
+  background-color: #cda550;
+  width: 78px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003525}}
+div.home div.main_container .province i {
+  font-size: 14px;
+  color: #cda550;
+  float: right;
+  line-height: 30px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003533}}
+div.home div.main_container .horse_race_lamp {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  position: relative;
+  padding-left: 14px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003540}}
+div.home div.main_container .horse_race_lamp b {
+  margin-top: 4px;
+  font-weight: normal;
+  font-size: 16px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003546}}
+div.home div.main_container .horse_race_lamp .wrap {
+  overflow: hidden;
+  position: absolute;
+  left: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003551}}
+div.home div.main_container .horse_race_lamp p {
+  float: left;
+  width: 1100px;
+  height: 60px;
+  line-height: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003558}}
+div.home div.main_container div.fullscreen_line {
+  width: 100%;
+  border-bottom: 2px solid #f5f5f5;
+  position: absolute;
+  left: 0;
+  box-shadow: 1px 2px 2px #f5f5f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003565}}
+div.home div.main_container div.subswiper {
+  margin-top: 18px;
+  width: 100%;
+  height: 296px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003570}}
+div.home div.main_container div.subswiper .subswiper_left {
+  float: left;
+  width: 780px;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003574}}
+div.home div.main_container div.subswiper .subswiper_left .swiper-container {
+  min-width: 780px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003577}}
+div.home div.main_container div.subswiper .subswiper_left .swiper-container b {
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  z-index: 9;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003591}}
+div.home div.main_container div.subswiper .subswiper_left .swiper-container b.next {
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003594}}
+div.home div.main_container div.subswiper .subswiper_left .swiper-container b.prev {
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003597}}
+div.home div.main_container div.subswiper .subswiper_left .swiper-container .a {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003600}}
+div.home div.main_container div.subswiper .subswiper_left .swiper-container .s {
+  width: 240px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003603}}
+div.home div.main_container div.subswiper .subswiper_left .swiper-container .s img:first-of-type {
+  margin-bottom: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003607}}
+div.home div.main_container div.subswiper .subswiper_left .swiper-container .swiper-button-next {
+  right: -3px;
+  height: 34px;
+  width: 34px;
+  background-image: url(../../assets/img/arrow1.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003613}}
+div.home div.main_container div.subswiper .subswiper_left .swiper-container .swiper-button-prev {
+  background-image: url(../../assets/img/arrow.png);
+  left: -4px;
+  height: 34px;
+  width: 34px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003621}}
+div.home div.main_container div.subswiper .subswiper_right {
+  float: right;
+  width: 386px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003624}}
+div.home div.main_container div.subswiper .subswiper_right img:nth-of-type(2) {
+  margin: 12px 0 12px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003629}}
+div.home div.main_container .horselamp {
+  position: relative;
+  width: 1198px;
+  height: 40px;
+  padding: 15px 0;
+  border: 1px solid #ccc;
+  margin: 18px 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003637}}
+div.home div.main_container .horselamp img.horsea {
+  float: left;
+  margin-left: 23px;
+  margin-top: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003642}}
+div.home div.main_container .horselamp .mt {
+  left: 40px;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003646}}
+div.home div.main_container .horselamp .sc_horse {
+  left: 0;
+  overflow-x: scroll;
+  height: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003651}}
+div.home div.main_container .horselamp div {
+  left: 124px;
+  width: 1072px;
+  height: 60px;
+  position: absolute;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003657}}
+div.home div.main_container .horselamp div ul {
+  position: absolute;
+  overflow: hidden;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003663}}
+div.home div.main_container .horselamp div ul li {
+  display: inline-block;
+  overflow: hidden;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003667}}
+div.home div.main_container .horselamp div ul li span {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003670}}
+div.home div.main_container .horselamp div ul li span:first-of-type {
+  color: #101f3f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003673}}
+div.home div.main_container .horselamp div ul li span:nth-of-type(2) {
+  margin: 0 12px 0 12px;
+  color: #101f3f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003677}}
+div.home div.main_container .horselamp div ul li span:last-of-type {
+  margin: 0 40px 0 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003680}}
+div.home div.main_container .horselamp div ul li span.up {
+  color: #c93a3e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003683}}
+div.home div.main_container .horselamp div ul li span.down {
+  color: #00aa44;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003688}}
+div.home div.main_container .horselamp div p {
+  width: 345px;
+  color: #666;
+  font-size: 12px;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003696}}
+div.home div.main_container img.point {
+  margin-bottom: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003699}}
+div.home div.main_container div#swiperC {
+  width: 100%;
+  min-width: 1200px;
+  height: 460px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003703}}
+div.home div.main_container div#swiperC b {
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  z-index: 9;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003717}}
+div.home div.main_container div#swiperC b.next {
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003720}}
+div.home div.main_container div#swiperC b.prev {
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003723}}
+div.home div.main_container div#swiperC .swiper-slide {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003725}}
+div.home div.main_container div#swiperC .swiper-slide div {
+  float: left;
+  width: 382px;
+  position: relative;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003730}}
+div.home div.main_container div#swiperC .swiper-slide div img {
+  width: 382px;
+  height: 216px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003734}}
+div.home div.main_container div#swiperC .swiper-slide div p {
+  width: 372px;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003746}}
+div.home div.main_container div#swiperC .swiper-slide div:nth-of-type(3n-1) {
+  margin: 0 27px 0px 27px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003752}}
+div.home div.main_container div.content {
+  margin-top: 40px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003755}}
+div.home div.main_container div.content div.left {
+  float: left;
+  width: 780px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003758}}
+div.home div.main_container div.content div.left img.news_top {
+  display: block;
+  margin-bottom: 27px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003763}}
+div.home div.main_container div.content div.left div.words p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  text-indent: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003770}}
+div.home div.main_container div.content div.left div.words p::before {
+  content: '·';
+  color: #999;
+  margin-right: 6px;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  left: -13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003777}}
+div.home div.main_container div.content div.left div.words p:first-of-type {
+  font-weight: bold;
+  font-size: 24px;
+  width: 100%;
+  margin-bottom: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003783}}
+div.home div.main_container div.content div.left div.words p:nth-of-type(2) {
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003789}}
+div.home div.main_container div.content div.left div.words div {
+  margin-top: 16px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003792}}
+div.home div.main_container div.content div.left div.words div ul {
+  width: 360px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003795}}
+div.home div.main_container div.content div.left div.words div ul li {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  text-indent: 14px;
+  margin-bottom: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003804}}
+div.home div.main_container div.content div.left div.words div ul li::before {
+  content: '\B7';
+  color: #999;
+  margin-right: 6px;
+  font-size: 50px;
+  position: absolute;
+  top: -21px;
+  left: -13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003814}}
+div.home div.main_container div.content div.left div.words div ul.left {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003817}}
+div.home div.main_container div.content div.left div.words div ul.right {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003822}}
+div.home div.main_container div.content div.left img.ad {
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003826}}
+div.home div.main_container div.content div.left .header_title {
+  width: 100%;
+  height: 46px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003831}}
+div.home div.main_container div.content div.left .header_title p:first-of-type {
+  float: left;
+  height: 100%;
+  width: 114px;
+  background-color: #15213d;
+  color: #fff;
+  text-align: center;
+  line-height: 46px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003841}}
+div.home div.main_container div.content div.left .header_title p:last-of-type {
+  float: right;
+  height: 100%;
+  line-height: 46px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003848}}
+div.home div.main_container div.content div.left .header_title p.more {
+  color: #999999;
+  font-size: 12px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003854}}
+div.home div.main_container div.content div.left div.switch {
+  width: 100%;
+  height: 104px;
+  overflow: hidden;
+  margin-top: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003859}}
+div.home div.main_container div.content div.left div.switch p {
+  width: 50%;
+  height: 64px;
+  float: left;
+  text-align: center;
+  line-height: 64px;
+  color: #15213d;
+  border-bottom: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003868}}
+div.home div.main_container div.content div.left div.switch p.act {
+  background-color: #fafafa;
+  border-top: 2px solid #15213d;
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003873}}
+div.home div.main_container div.content div.left div.switch div {
+  clear: both;
+  height: 40px;
+  background-color: #fafafa;
+  line-height: 40px;
+  padding: 0 34px 0 20px;
+  overflow: hidden;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003881}}
+div.home div.main_container div.content div.left div.switch div span {
+  display: inline-block;
+  color: #999;
+  font-size: 14px;
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003889}}
+div.home div.main_container div.content div.left ul.list {
+  width: 100%;
+  height: 275px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003893}}
+div.home div.main_container div.content div.left ul.list li {
+  height: 54px;
+  border-bottom: 1px solid #eeeeee;
+  overflow: hidden;
+  line-height: 54px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003898}}
+div.home div.main_container div.content div.left ul.list li p {
+  float: left;
+  width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003906}}
+div.home div.main_container div.content div.left ul.list li span {
+  width: 117px;
+  float: left;
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003911}}
+div.home div.main_container div.content div.left ul.list li b {
+  float: right;
+  width: 66px;
+  height: 30px;
+  color: #cda550;
+  border: 1px solid #cda550;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003923}}
+div.home div.main_container div.content div.left ul.list li:nth-of-type(2n) {
+  background-color: #fafafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003926}}
+div.home div.main_container div.content div.left ul.list i {
+  float: right;
+  line-height: 44px;
+  color: #a0a0a0;
+  font-size: 12px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003934}}
+div.home div.main_container div.content div.left div#swiperd {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 780px;
+  min-width: 780px;
+  height: 162px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003941}}
+div.home div.main_container div.content div.left div#swiperd .swiper-slide {
+  width: 90px;
+  height: 162px;
+  position: relative;
+  margin-right: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003946}}
+div.home div.main_container div.content div.left div#swiperd .swiper-slide img {
+  width: 95px;
+  height: 115px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003950}}
+div.home div.main_container div.content div.left div#swiperd .swiper-slide span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90px;
+  height: 34px;
+  background-color: #cda550;
+  text-align: center;
+  line-height: 34px;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003961}}
+div.home div.main_container div.content div.left div#swiperd .swiper-slide i {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  height: 20px;
+  width: 90px;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  font-size: 12px;
+  top: 94px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003975}}
+div.home div.main_container div.content div.left div#swiperd b {
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  z-index: 9;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003989}}
+div.home div.main_container div.content div.left div#swiperd b.next {
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003992}}
+div.home div.main_container div.content div.left div#swiperd b.prev {
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\00003996}}
+div.home div.main_container div.content div.left div#swipere {
+  width: 780px;
+  min-width: 780px;
+  height: 242px;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031001}}
+div.home div.main_container div.content div.left div#swipere .swiper-pagination-bullet {
+  background: #ffffff !important;
+  opacity: 1 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031005}}
+div.home div.main_container div.content div.left div#swipere .swiper-pagination-bullet-active {
+  width: 30px !important;
+  background: #cda550 !important;
+  border-radius: 5px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031010}}
+div.home div.main_container div.content div.left div#swipere img {
+  width: 780px;
+  height: 242px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031015}}
+div.home div.main_container div.content div.left ul.kuaibao {
+  width: 100%;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031018}}
+div.home div.main_container div.content div.left ul.kuaibao li {
+  cursor: pointer;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031023}}
+div.home div.main_container div.content div.left ul.kuaibao li img {
+  width: 192px;
+  height: 106px;
+  float: left;
+  margin-right: 8px;
+  margin-bottom: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031030}}
+div.home div.main_container div.content div.left ul.kuaibao li div {
+  float: left;
+  width: 578px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031033}}
+div.home div.main_container div.content div.left ul.kuaibao li div h1 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031038}}
+div.home div.main_container div.content div.left ul.kuaibao li div p {
+  color: #666;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031047}}
+div.home div.main_container div.content div.left ul.kuaibao li div div {
+  margin-top: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031049}}
+div.home div.main_container div.content div.left ul.kuaibao li div div b {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031052}}
+div.home div.main_container div.content div.left ul.kuaibao li div div b:first-of-type {
+  width: 66px;
+  height: 30px;
+  border: 1px solid #cda550;
+  color: #cda550;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031061}}
+div.home div.main_container div.content div.left ul.kuaibao li div div b:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 30px;
+  color: #666;
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031067}}
+div.home div.main_container div.content div.left ul.kuaibao li div div b:last-of-type {
+  float: right;
+  font-size: 10px;
+  color: #999;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031077}}
+div.home div.main_container div.content div.left .bannerpic {
+  width: 1200px;
+  height: 142px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031082}}
+div.home div.main_container div.content div.right {
+  float: right;
+  width: 386px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031085}}
+div.home div.main_container div.content div.right #swiperf {
+  width: 386px;
+  min-width: 386px;
+  height: 214px;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031090}}
+div.home div.main_container div.content div.right #swiperf .swiper-pagination-bullet {
+  background: #ffffff !important;
+  opacity: 1 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031094}}
+div.home div.main_container div.content div.right #swiperf .swiper-pagination-bullet-active {
+  width: 30px !important;
+  background: #cda550 !important;
+  border-radius: 5px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031100}}
+div.home div.main_container div.content div.right .home_tpbb {
+  width: 100%;
+  height: 16px;
+  border-left: 4px solid #cda550;
+  overflow: hidden;
+  margin-top: 28px;
+  padding-left: 8px;
+  margin-bottom: 26px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031108}}
+div.home div.main_container div.content div.right .home_tpbb span:first-of-type {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031113}}
+div.home div.main_container div.content div.right .home_tpbb span:last-of-type {
+  float: right;
+  font-size: 12px;
+  color: #a0a0a0;
+  margin-right: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031120}}
+div.home div.main_container div.content div.right div.home_tpbb_sub {
+  overflow: hidden;
+  position: relative;
+  height: 36px;
+  margin-bottom: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031125}}
+div.home div.main_container div.content div.right div.home_tpbb_sub span {
+  float: left;
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031129}}
+div.home div.main_container div.content div.right div.home_tpbb_sub p {
+  float: left;
+  color: #666;
+  font-size: 14px;
+  overflow: hidden;
+  width: 320px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031138}}
+div.home div.main_container div.content div.right div.home_tpbb_sub i {
+  position: absolute;
+  left: 8px;
+  top: 22px;
+  color: #999;
+  font-size: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031146}}
+div.home div.main_container div.content div.right div.home_tpbb_sub::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031153}}
+div.home div.main_container div.content div.right .home_tpzb_sub {
+  width: 100%;
+  height: 46px;
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031159}}
+div.home div.main_container div.content div.right .home_tpzb_sub b {
+  width: 58px;
+  height: 22px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 22px;
+  background: #cda550;
+  display: inline-block;
+  margin-right: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031170}}
+div.home div.main_container div.content div.right .home_tpzb_sub i {
+  color: #999;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031174}}
+div.home div.main_container div.content div.right .home_tpzb_sub em {
+  font-size: 14px;
+  color: #333;
+  position: absolute;
+  top: 30px;
+  left: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031180}}
+div.home div.main_container div.content div.right img.jingzhu_signup {
+  margin-top: 30px;
+  margin-bottom: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031184}}
+div.home div.main_container div.content div.right div.icon {
+  height: 238px;
+  width: 100%;
+  background-color: #fafafa;
+  overflow: hidden;
+  margin-top: -2px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031192}}
+div.home div.main_container div.content div.right div.icon p {
+  width: 50px;
+  height: 70px;
+  float: left;
+  font-size: 12px;
+  margin: 20px 40px 12px 38px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031198}}
+div.home div.main_container div.content div.right div.icon p span {
+  display: inline-block;
+  line-height: 20px;
+  width: 50px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031207}}
+div.home div.main_container div.content div.right div.picturelist {
+  width: 100%;
+  height: 585px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031213}}
+div.home div.main_container div.content div.right div.picturelist img:nth-of-type(1) {
+  margin-top: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031216}}
+div.home div.main_container div.content div.right div.picturelist img:nth-of-type(2) {
+  margin: 14px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031220}}
+div.home div.main_container div.content div.right div.left_djq {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031222}}
+div.home div.main_container div.content div.right div.left_djq a {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  left: 300px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031230}}
+div.home div.main_container div.content div.right ul.left_djq {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031235}}
+div.home div.main_container div.content div.right ul.left_djq p.l {
+  font-size: 14px;
+  color: #666;
+  width: 380px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031243}}
+div.home div.main_container div.content div.right ul.left_djq p.l span {
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031248}}
+div.home div.main_container div.content div.right ul.left_djq p.l::before {
+  content: '·';
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031252}}
+div.home div.main_container div.content div.right ul.left_djq li {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031256}}
+div.home div.main_container div.content div.right ul.left_djq li div {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031258}}
+div.home div.main_container div.content div.right ul.left_djq li div img {
+  float: left;
+  width: 146px;
+  height: 82px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031263}}
+div.home div.main_container div.content div.right ul.left_djq li div p {
+  float: right;
+  width: 230px;
+  margin-right: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031267}}
+div.home div.main_container div.content div.right ul.left_djq li div p b {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031277}}
+div.home div.main_container div.content div.right ul.left_djq li div p b::after {
+  content: "...";
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 9px 0px 40px;
+  background: url('http://newimg88.b0.upaiyun.com/newimg88/2014/09/ellipsis_bg.png') repeat-y;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031289}}
+div.home div.main_container div.content div.right ul.left_djq li:last-of-type {
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031298}}
+div.home div.main_container div.pinpai {
+  width: 1198px;
+  height: 42px;
+  border: 1px solid #eee;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031303}}
+div.home div.main_container div.pinpai span {
+  width: 114px;
+  height: 100%;
+  background: #15213d;
+  color: #fff;
+  float: left;
+  text-align: center;
+  line-height: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031313}}
+div.home div.main_container div.goldenzhuan {
+  width: 375px;
+  display: inline-block;
+  overflow: hidden;
+  border-left: 4px solid #cda550;
+  margin: 30px 0 22px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031319}}
+div.home div.main_container div.goldenzhuan span {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031325}}
+div.home div.main_container div.goldenzhuan b {
+  color: #b6b6b6;
+  font-size: 12px;
+  float: right;
+  line-height: 16px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031334}}
+div.home div.main_container div.goldenzhuan.b {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031336}}
+div.home div.main_container div.goldenzhuan.b b {
+  margin-right: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031340}}
+div.home div.main_container div.center {
+  margin-left: 23px;
+  margin-right: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031344}}
+div.home div.main_container ul.pinpai {
+  width: 375px;
+  padding-right: 15px;
+  border-right: 1px dashed #e0e0e0;
+  display: inline-block;
+  margin-right: 11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031350}}
+div.home div.main_container ul.pinpai li:nth-of-type(2) {
+  margin: 15px 0 15px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031353}}
+div.home div.main_container ul.pinpai li {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031355}}
+div.home div.main_container ul.pinpai li p {
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  height: 36px;
+  line-height: 36px;
+  text-indent: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031371}}
+div.home div.main_container ul.pinpai li img {
+  width: 375px;
+  height: 215px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031377}}
+div.home div.main_container ul.pinpai:last-of-type {
+  width: 375px;
+  padding: 0;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031382}}
+div.home div.main_container #swiperlast {
+  width: 1124px;
+  min-width: 1124px;
+  margin: 0 auto;
+  height: 270px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031387}}
+div.home div.main_container #swiperlast .swiper-slide {
+  width: 166px;
+  margin-right: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031390}}
+div.home div.main_container #swiperlast .swiper-slide img {
+  width: 166px;
+  height: 246px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031394}}
+div.home div.main_container #swiperlast .swiper-slide p {
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031406}}
+div.home div.main_container img.zhitong {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031410}}
+div.home div.main_container #swiperend {
+  width: 100%;
+  height: 184px;
+  background-color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031414}}
+div.home div.main_container #swiperend b {
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  z-index: 9;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031428}}
+div.home div.main_container #swiperend b.next {
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031431}}
+div.home div.main_container #swiperend b.prev {
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031435}}
+div.home div.main_container div.friendship {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 12px;
+  width: 100%;
+  height: 42px;
+  background-color: #fafafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031442}}
+div.home div.main_container div.friendship span {
+  display: inline-block;
+  font-size: 16px;
+  color: #333;
+  line-height: 42px;
+  width: 120px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031450}}
+div.home div.main_container div.friendship span.c {
+  border-top: 2px solid #15213d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031454}}
+div.home div.main_container div.fr_content {
+  display: flex;
+  width: 1184px;
+  min-height: 128px;
+  border: 1px solid #eee;
+  border-top: none;
+  padding-left: 14px;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031463}}
+div.home div.main_container div.fr_content span {
+  padding: 10px 10px;
+  color: #999;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031471}}
+div.cctv {
+  height: 100%;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031474}}
+div.cctv div.container {
+  width: 100%;
+  margin-bottom: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031477}}
+div.cctv div.container > div {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031485}}
+div.cctv div.zhibohome .container .shadow div.right {
+  padding-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031491}}
+div.cctv div.zhibohome .container .listhead {
+  width: 100%;
+  height: 60px;
+  background-color: #15213d;
+  padding: 0;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031497}}
+div.cctv div.zhibohome .container .listhead span {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  width: 110px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031505}}
+div.cctv div.zhibohome .container .listhead span:first-of-type {
+  margin-right: 400px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031509}}
+div.cctv div.zhibohome .container .listcon {
+  padding: 0;
+  width: 100%;
+  height: 78px;
+  line-height: 78px;
+  color: #15213d;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031518}}
+div.cctv div.zhibohome .container .listcon span {
+  float: left;
+  width: 80px;
+  text-align: center;
+  margin-right: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031524}}
+div.cctv div.zhibohome .container .listcon span:first-of-type {
+  margin: auto 0;
+  width: 56px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #15213d;
+  margin-top: 23px;
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031534}}
+div.cctv div.zhibohome .container .listcon span:last-of-type {
+  width: 65px;
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031538}}
+div.cctv div.zhibohome .container .listcon span:nth-of-type(2) {
+  width: 410px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031545}}
+div.cctv div.zhibohome .container .listcon span:nth-of-type(3) {
+  margin-right: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031550}}
+div.cctv div.containersub {
+  width: 100%;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031553}}
+div.cctv div.containersub div.left {
+  float: left;
+  width: 780px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031556}}
+div.cctv div.containersub div.left ul.kuaibao {
+  width: 100%;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031559}}
+div.cctv div.containersub div.left ul.kuaibao li {
+  cursor: pointer;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031564}}
+div.cctv div.containersub div.left ul.kuaibao li img {
+  width: 192px;
+  height: 106px;
+  float: left;
+  margin-right: 8px;
+  margin-bottom: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031571}}
+div.cctv div.containersub div.left ul.kuaibao li div {
+  float: left;
+  width: 578px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031574}}
+div.cctv div.containersub div.left ul.kuaibao li div h1 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+  width: 580px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031575}}
+div.cctv div.containersub div.left ul.kuaibao li div h1 i {
+  width: 56px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  display: inline-block;
+  color: #15213d;
+  border: 1px solid #15213d;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031595}}
+div.cctv div.containersub div.left ul.kuaibao li div p {
+  color: #666;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031604}}
+div.cctv div.containersub div.left ul.kuaibao li div p::after {
+  content: "...";
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 20px 1px 45px;
+  background: url('http://newimg88.b0.upaiyun.com/newimg88/2014/09/ellipsis_bg.png') repeat-y;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031613}}
+div.cctv div.containersub div.left ul.kuaibao li div div {
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031618}}
+div.cctv div.containersub div.left ul.kuaibao li div div img {
+  float: right;
+  width: 12px;
+  height: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031623}}
+div.cctv div.containersub div.left ul.kuaibao li div div i {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031631}}
+div.cctv div.containersub div.right {
+  width: 384px;
+  float: right;
+  padding-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031635}}
+div.cctv div.containersub div.right div.hotzhibo {
+  height: 44px;
+  border: 1px solid #f5f5f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031638}}
+div.cctv div.containersub div.right div.hotzhibo span {
+  font-weight: bold;
+  line-height: 44px;
+  padding-left: 10px;
+  border-left: 5px solid #cda550;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031645}}
+div.cctv div.containersub div.right div.imglist {
+  margin-top: 30px;
+  height: 217px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031649}}
+div.cctv div.containersub div.right div.imglist img {
+  width: 100%;
+  height: 217px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031653}}
+div.cctv div.containersub div.right div.imglist p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  line-height: 40px;
+  text-indent: 10px;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031669}}
+div.zhibohome .swiper-container {
+  width: 612px;
+  height: 342px;
+  float: left;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031674}}
+div.zhibohome .swiper-container .swiper-pagination-bullet {
+  background: #ffffff !important;
+  opacity: 1 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031678}}
+div.zhibohome .swiper-container .swiper-pagination-bullet-active {
+  width: 30px !important;
+  background: #cda550 !important;
+  border-radius: 5px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031683}}
+div.zhibohome .swiper-container img {
+  width: 612px;
+  height: 342px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031688}}
+div.zhibohome div.container {
+  width: 100%;
+  margin-bottom: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031691}}
+div.zhibohome div.container div.shadow {
+  box-shadow: 0 5px 18px -5px #e8e8e8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031694}}
+div.zhibohome div.container > div {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031699}}
+div.zhibohome div.container > div div.right {
+  margin-top: 30px;
+  float: right;
+  width: 558px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031704}}
+div.zhibohome div.container > div div.right > p {
+  margin-top: -10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+  border-left: 5px solid #cda550;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031711}}
+div.zhibohome div.container > div div.right .line {
+  position: absolute;
+  top: 20px;
+  left: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031714}}
+div.zhibohome div.container > div div.right i {
+  position: absolute;
+  left: 18px;
+  bottom: 0px;
+  color: #15213d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031719}}
+div.zhibohome div.container > div div.right i b {
+  border: 1px solid #cda550;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0px;
+  left: -24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031730}}
+div.zhibohome div.container > div div.right div.fst_gai {
+  border-left: 2px solid #e9e9e9;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031734}}
+div.zhibohome div.container > div div.right div {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031736}}
+div.zhibohome div.container > div div.right div p {
+  position: relative;
+  padding-left: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031740}}
+div.zhibohome div.container > div div.right div p span:nth-of-type(2) {
+  width: 470px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031746}}
+div.zhibohome div.container > div div.right div p b {
+  border: 1px solid #cda550;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 1px;
+  left: -6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031756}}
+div.zhibohome div.container > div div.right div p span {
+  color: #15213d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031759}}
+div.zhibohome div.container > div div.right div p span.red {
+  color: #c52026;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031763}}
+div.zhibohome div.container > div div.right div ul {
+  margin: 20px 0 14px 0;
+  padding-left: 70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031766}}
+div.zhibohome div.container > div div.right div ul li {
+  display: inline-block;
+  width: 66px;
+  height: 30px;
+  border: 1px solid #999999;
+  text-align: center;
+  line-height: 30px;
+  color: #999;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031776}}
+div.zhibohome div.container > div div.right div ul li:first-of-type {
+  color: #cda550;
+  border-color: #cda550;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031780}}
+div.zhibohome div.container > div div.right div ul li:nth-of-type(2) {
+  margin: 0 10px 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031785}}
+div.zhibohome div.container > div div.right div:last-of-type {
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031788}}
+div.zhibohome div.container > div div.right div.rb {
+  margin-bottom: 26px;
+  margin-top: 0;
+  float: left;
+  width: 270px;
+  height: 160px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031795}}
+div.zhibohome div.container > div div.right div.rb img {
+  width: 270px;
+  height: 160px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031799}}
+div.zhibohome div.container > div div.right div.rb span {
+  text-indent: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031811}}
+div.zhibohome div.container > div div.right div.rb:nth-of-type(2n+1) {
+  margin-right: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031816}}
+div.zhibohome div.container .lb {
+  float: left;
+  width: 613px;
+  height: 347px;
+  margin-top: 30px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031822}}
+div.zhibohome div.container .lb img {
+  width: 613px;
+  height: 347px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031826}}
+div.zhibohome div.container .lb span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 613px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-indent: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031841}}
+div.kuaibao div.container {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031843}}
+div.kuaibao div.container div.main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031849}}
+div.kuaibao div.container div.main div.left {
+  width: 780px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031852}}
+div.kuaibao div.container div.main div.left div.tit {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  border: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031857}}
+div.kuaibao div.container div.main div.left div.tit span {
+  display: inline-block;
+  height: 100%;
+  width: 114px;
+  text-align: center;
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031864}}
+div.kuaibao div.container div.main div.left div.tit span.choose {
+  background-color: #15213d;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031869}}
+div.kuaibao div.container div.main div.left ul.kuaibao {
+  width: 100%;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031872}}
+div.kuaibao div.container div.main div.left ul.kuaibao li {
+  cursor: pointer;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031877}}
+div.kuaibao div.container div.main div.left ul.kuaibao li img {
+  width: 192px;
+  height: 106px;
+  float: left;
+  margin-right: 8px;
+  margin-bottom: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031884}}
+div.kuaibao div.container div.main div.left ul.kuaibao li div {
+  float: left;
+  width: 578px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031887}}
+div.kuaibao div.container div.main div.left ul.kuaibao li div h1 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031892}}
+div.kuaibao div.container div.main div.left ul.kuaibao li div p {
+  color: #666;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031901}}
+div.kuaibao div.container div.main div.left ul.kuaibao li div div {
+  margin-top: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031903}}
+div.kuaibao div.container div.main div.left ul.kuaibao li div div b {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031906}}
+div.kuaibao div.container div.main div.left ul.kuaibao li div div b:first-of-type {
+  height: 30px;
+  color: #999999;
+  font-size: 12px;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031915}}
+div.kuaibao div.container div.main div.left ul.kuaibao li div div b:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 30px;
+  color: #666;
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031921}}
+div.kuaibao div.container div.main div.left ul.kuaibao li div div b:last-of-type {
+  float: right;
+  font-size: 10px;
+  color: #999;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031932}}
+div.kuaibao div.container div.main div.right {
+  width: 386px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031935}}
+div.kuaibao div.container div.main div.right div.ad {
+  width: 100%;
+  height: 225px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031939}}
+div.kuaibao div.container div.main div.right div.ad img {
+  width: 100%;
+  height: 225px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031943}}
+div.kuaibao div.container div.main div.right div.ad span {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-indent: 10px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  line-height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031955}}
+div.kuaibao div.container div.main div.right div.topten {
+  margin-top: 30px;
+  width: 384px;
+  height: 44px;
+  line-height: 44px;
+  border: 1px solid #f5f5f5;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031962}}
+div.kuaibao div.container div.main div.right div.topten span {
+  width: 166px;
+  height: 100%;
+  background-color: #cda550;
+  display: inline-block;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031970}}
+div.kuaibao div.container div.main div.right div.eli {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333333;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031975}}
+div.kuaibao div.container div.main div.right div.eli p {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031978}}
+div.kuaibao div.container div.main div.right div.eli p:first-of-type {
+  width: 282px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031984}}
+div.kuaibao div.container div.main div.right div.eli p:last-of-type {
+  float: right;
+  font-size: 10px;
+  color: #999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000031989}}
+div.kuaibao div.container div.main div.right div.eli p:first-of-type::before {
+  content: '·';
+  font-weight: bold;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032000}}
+div.kb_detail div.container {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032004}}
+div.kb_detail div.container h1.title {
+  margin-top: 30px;
+  font-size: 36px;
+  line-height: 55px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032009}}
+div.kb_detail div.container div.detail_t {
+  height: 56px;
+  width: 1199px;
+  line-height: 56px;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032015}}
+div.kb_detail div.container div.detail_t span {
+  float: left;
+  font-size: 14px;
+  color: #999999;
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032021}}
+div.kb_detail div.container div.detail_t span:last-of-type {
+  color: #cda550;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032025}}
+div.kb_detail div.container div.main {
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032028}}
+div.kb_detail div.container div.main div.left {
+  width: 780px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032031}}
+div.kb_detail div.container div.main div.left img {
+  max-width: 780px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032034}}
+div.kb_detail div.container div.main div.left div.paging {
+  overflow: hidden;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032037}}
+div.kb_detail div.container div.main div.left div.paging div {
+  float: left;
+  width: 380px;
+  height: 80px;
+  border: 1px solid #15213d;
+  border-radius: 10px;
+  color: #15213d;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032046}}
+div.kb_detail div.container div.main div.left div.paging div.choose {
+  background: #fafafa;
+  border-color: #999999;
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032050}}
+div.kb_detail div.container div.main div.left div.paging div.choose span {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032054}}
+div.kb_detail div.container div.main div.left div.paging div:first-of-type {
+  margin-right: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032056}}
+div.kb_detail div.container div.main div.left div.paging div:first-of-type span {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032059}}
+div.kb_detail div.container div.main div.left div.paging div:first-of-type p {
+  position: absolute;
+  top: 44px;
+  left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032064}}
+div.kb_detail div.container div.main div.left div.paging div:last-of-type span {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032069}}
+div.kb_detail div.container div.main div.left div.paging div:last-of-type p {
+  position: absolute;
+  right: 20px;
+  top: 44px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032077}}
+div.kb_detail div.container div.main div.right {
+  width: 386px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032080}}
+div.kb_detail div.container div.main div.right div.ad {
+  width: 100%;
+  height: 225px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032084}}
+div.kb_detail div.container div.main div.right div.ad img {
+  width: 100%;
+  height: 225px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032088}}
+div.kb_detail div.container div.main div.right div.ad span {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-indent: 10px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  line-height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032100}}
+div.kb_detail div.container div.main div.right div.topten {
+  margin-top: 30px;
+  width: 384px;
+  height: 44px;
+  line-height: 44px;
+  border: 1px solid #f5f5f5;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032107}}
+div.kb_detail div.container div.main div.right div.topten span {
+  width: 166px;
+  height: 100%;
+  background-color: #cda550;
+  display: inline-block;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032115}}
+div.kb_detail div.container div.main div.right div.eli {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333333;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032120}}
+div.kb_detail div.container div.main div.right div.eli p {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032123}}
+div.kb_detail div.container div.main div.right div.eli p:first-of-type {
+  width: 282px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032129}}
+div.kb_detail div.container div.main div.right div.eli p:last-of-type {
+  float: right;
+  font-size: 10px;
+  color: #999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032134}}
+div.kb_detail div.container div.main div.right div.eli p:first-of-type::before {
+  content: '·';
+  font-weight: bold;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032146}}
+div.zhaoqian div.container {
+  background-color: #f5f5f5;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032149}}
+div.zhaoqian div.container div.main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 200px;
+  padding-top: 32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032155}}
+div.zhaoqian div.container div.main div.left {
+  float: left;
+  width: 780px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032158}}
+div.zhaoqian div.container div.main div.left div.z_top_img {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032164}}
+div.zhaoqian div.container div.main div.left div.z_top_img a img {
+  width: 386px;
+  height: 160px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032171}}
+div.zhaoqian div.container div.main div.left div.z_top_img a:first-of-type img {
+  margin-right: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032176}}
+div.zhaoqian div.container div.main div.left div.tit {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  background-color: #ffffff;
+  border: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032182}}
+div.zhaoqian div.container div.main div.left div.tit span {
+  display: inline-block;
+  height: 100%;
+  width: 114px;
+  text-align: center;
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032189}}
+div.zhaoqian div.container div.main div.left div.tit span.choose {
+  background-color: #15213d;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032194}}
+div.zhaoqian div.container div.main div.left div.city_select {
+  font-size: 14px;
+  width: 766px;
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 25px 0px 16px 15px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032201}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit {
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032204}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit span {
+  font-size: 14px;
+  color: #333;
+  float: left;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032210}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit div {
+  float: left;
+  margin-left: 10px;
+  width: 600px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032214}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit div b {
+  color: #999999;
+  padding: 8px 14px 8px 14px;
+  border-radius: 7px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032223}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit div b.choose {
+  background-color: #15213d;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032229}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit.way.height_auto {
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032232}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit.way {
+  position: relative;
+  height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032235}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit.way div b {
+  margin-right: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032239}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit_city {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032241}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit_city div.c {
+  width: 610px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032245}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit_city div {
+  margin-left: 4px;
+  width: 90px;
+  float: left;
+  color: #999999;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032257}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit_city div img {
+  display: inline-block;
+  margin: 12px;
+  margin-left: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032264}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit_city div.city_list {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032268}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit_city div.chosen p {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032272}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit_city div.chosen {
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  height: 28px;
+  position: relative;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032279}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit_city div.chosen p {
+  display: block;
+  border-radius: 6px;
+  position: absolute;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  padding: 10px;
+  z-index: 2;
+  min-width: 90px;
+  left: 0px;
+  max-height: 114px;
+  overflow-y: scroll;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032294}}
+div.zhaoqian div.container div.main div.left div.city_select div.unit_city {
+  height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032297}}
+div.zhaoqian div.container div.main div.left div.city_select div.height_auto {
+  height: auto;
+  padding-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032303}}
+div.zhaoqian div.container div.main div.right {
+  width: 386px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032312}}
+div.loginPage div.container {
+  width: 100%;
+  height: 570px;
+  background-color: #f5f5f5;
+  box-shadow: inset -3px 1px 14px 0px #e8e8e8;
+  padding-top: 44px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032318}}
+div.loginPage div.container div.manul {
+  overflow: hidden;
+  width: 1043px;
+  height: 438px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032323}}
+div.loginPage div.container div.manul div.pic {
+  float: left;
+  width: 583px;
+  height: 437px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032328}}
+div.loginPage div.container div.manul div.form {
+  float: left;
+  width: 400px;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032333}}
+div.loginPage div.container div.manul div.form .h {
+  color: #2b2c43;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032338}}
+div.loginPage div.container div.manul div.form input {
+  width: 338px;
+  height: 40px;
+  border: 1px solid #ddd;
+  outline: none;
+  margin-bottom: 24px;
+  text-indent: 10px;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032347}}
+div.loginPage div.container div.manul div.form div.inp {
+  width: 338px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032350}}
+div.loginPage div.container div.manul div.form div.inp input {
+  float: left;
+  width: 238px;
+  border-right: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032355}}
+div.loginPage div.container div.manul div.form div.inp span {
+  float: left;
+  background-color: #cda550;
+  width: 98px;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032366}}
+div.loginPage div.container div.manul div.form div.dropdown {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032368}}
+div.loginPage div.container div.manul div.form div.dropdown img {
+  position: absolute;
+  top: 20px;
+  left: 320px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032374}}
+div.loginPage div.container div.manul div.form div.dropdown .sub {
+  width: 340px;
+  box-shadow: 1px 0px 6px 0px #d0d0d0;
+  position: absolute;
+  bottom: -60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032379}}
+div.loginPage div.container div.manul div.form div.dropdown .sub p {
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  color: #989898;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032388}}
+div.loginPage div.container div.manul div.form div.dropdown .sub p:hover {
+  background-color: #f5f5f5;
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032394}}
+div.loginPage div.container div.manul div.form input[type='checkbox'] {
+  width: 14px;
+  height: 14px;
+  vertical-align: top;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032401}}
+div.loginPage div.container div.manul div.form p.manulist span {
+  vertical-align: baseline;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032404}}
+div.loginPage div.container div.manul div.form p.manulist span b {
+  color: #142242;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032410}}
+div.loginPage div.container div.manul div.form button {
+  width: 338px;
+  height: 40px;
+  background-color: #cda550;
+  text-align: center;
+  line-height: 40px;
+  outline: 0;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032425}}
+div.charge {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032427}}
+div.charge div.container {
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5;
+  box-shadow: inset -3px 1px 14px 0px #e8e8e8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032432}}
+div.charge div.container img.tb {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032435}}
+div.charge div.container img.tb_rz {
+  position: absolute;
+  left: 50%;
+  margin-left: -600px;
+  top: 220px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032441}}
+div.charge div.container div.main_a {
+  width: 1170px;
+  margin: 0 auto 20px auto;
+  height: 345px;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-left: 30px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032449}}
+div.charge div.container div.main_a p.h {
+  font-size: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032452}}
+div.charge div.container div.main_a div.i {
+  position: absolute;
+  left: 30px;
+  top: 70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032456}}
+div.charge div.container div.main_a div.i p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032461}}
+div.charge div.container div.main_a div.i i {
+  color: #ff3f3f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032464}}
+div.charge div.container div.main_a div.i input {
+  width: 554px;
+  height: 46px;
+  border: 1px solid #eeeeee;
+  text-indent: 10px;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032472}}
+div.charge div.container div.main_a div.i_1 {
+  position: absolute;
+  top: 70px;
+  left: 640px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032477}}
+div.charge div.container div.main_a div.i_2 {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032483}}
+div.charge div.container div.main_b {
+  width: 1170px;
+  margin: 20px auto 190px auto;
+  height: 705px;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-left: 30px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032491}}
+div.charge div.container div.main_b p.h {
+  font-size: 24px;
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032495}}
+div.charge div.container div.main_b p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032500}}
+div.charge div.container div.main_b i {
+  color: #ff3f3f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032503}}
+div.charge div.container div.main_b p.f {
+  font-size: 14px;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032507}}
+div.charge div.container div.main_b p.s {
+  color: #666666;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032513}}
+div.charge div.container div.main_b .mr {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032516}}
+div.charge div.container div.main_b button {
+  width: 140px;
+  height: 40px;
+  background-color: #cda550;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  bottom: -110px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032532}}
+div.charge div.container .zf {
+  height: 400px!important;
+  margin-bottom: 150px!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032535}}
+div.charge div.container .zf p.h {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032540}}
+div.charge div.container .zf textarea {
+  width: 1140px;
+  height: 206px;
+  resize: none;
+  font-size: 14px;
+  text-indent: 20px;
+  border-color: #eeeeee;
+  background-color: #fafafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032549}}
+div.charge div.container .zf textarea.sc {
+  height: 88px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032552}}
+div.charge div.container .zf p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032556}}
+div.charge div.container .zf p i {
+  color: #ff3f3f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032560}}
+div.charge div.container .zf p.s {
+  color: #666666;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032566}}
+div.charge div.container .zf .mr {
+  margin-right: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032569}}
+div.charge div.container .zf button {
+  width: 140px;
+  height: 40px;
+  background-color: #cda550;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  bottom: -110px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032585}}
+div.charge div.container .zf div.inp_row div.i {
+  display: inline-block;
+  width: 262px;
+  margin-right: 26px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032589}}
+div.charge div.container .zf div.inp_row div.i p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032594}}
+div.charge div.container .zf div.inp_row div.i i {
+  color: #ff3f3f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032597}}
+div.charge div.container .zf div.inp_row div.i input {
+  width: 262px;
+  height: 46px;
+  border: 1px solid #eeeeee;
+  text-indent: 10px;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032610}}
+div.personal .container {
+  padding-top: 50px;
+  padding-bottom: 102px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032613}}
+div.personal .container .main {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032618}}
+div.personal .container .main div.left {
+  float: left;
+  width: 300px;
+  margin-right: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032622}}
+div.personal .container .main div.left img {
+  width: 300px;
+  height: 168px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032626}}
+div.personal .container .main div.left img:first-of-type {
+  margin: 20px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032629}}
+div.personal .container .main div.left p.active {
+  display: block;
+  background-color: #15213d;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032634}}
+div.personal .container .main div.left p {
+  background-color: #fff;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 16px;
+  color: #333;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032642}}
+div.personal .container .main div.left p i {
+  position: absolute;
+  top: 18px;
+  left: 100px;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032648}}
+div.personal .container .main div.left p b {
+  position: absolute;
+  top: 18px;
+  left: 160px;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032658}}
+div.personal .container .main div.right {
+  float: left;
+  width: 820px;
+  background-color: #fff;
+  padding: 30px 0 0 30px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032664}}
+div.personal .container .main div.right .M-PagingBox {
+  margin-top: 870px;
+  margin-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032669}}
+div.personal .container .main div.right p {
+  color: #999;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032672}}
+div.personal .container .main div.right p span {
+  cursor: pointer;
+  width: 82px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  line-height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032680}}
+div.personal .container .main div.right p span.active {
+  color: #333;
+  border-bottom: 2px solid #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032685}}
+div.personal .container .main div.right p b {
+  font-size: 12px;
+  color: #cda550;
+  width: 64px;
+  height: 24px;
+  border: 1px solid #cda550;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 24px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032696}}
+div.personal .container .main div.right p b:first-of-type {
+  position: absolute;
+  top: 10px;
+  left: 650px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032701}}
+div.personal .container .main div.right p b:last-of-type {
+  position: absolute;
+  top: 10px;
+  left: 720px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032705}}
+div.personal .container .main div.right div.t {
+  width: 794px;
+  height: 46px;
+  background-color: #eee;
+  position: absolute;
+  top: 72px;
+  left: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032710}}
+div.personal .container .main div.right div.t span {
+  font-size: 14px;
+  color: #15213d;
+  line-height: 46px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032716}}
+div.personal .container .main div.right div.t span:first-of-type {
+  margin-left: 120px;
+  margin-right: 180px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032720}}
+div.personal .container .main div.right div.t span:nth-of-type(2) {
+  margin-right: 56px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032723}}
+div.personal .container .main div.right div.t .pass {
+  margin: 0 104px 0 110px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032726}}
+div.personal .container .main div.right div.t span.third {
+  margin-left: 230px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032730}}
+div.personal .container .main div.right div.list_c {
+  position: absolute;
+  top: 118px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032734}}
+div.personal .container .main div.right div.list:hover {
+  background-color: #fafafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032737}}
+div.personal .container .main div.right div.list {
+  cursor: pointer;
+  width: 769px;
+  height: 36px;
+  padding: 20px 0 0 25px;
+  border-bottom: 1px solid #efefef;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032744}}
+div.personal .container .main div.right div.list p {
+  float: left;
+  font-size: 12px;
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032749}}
+div.personal .container .main div.right div.list p:nth-of-type(2) {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032753}}
+div.personal .container .main div.right div.list p:nth-of-type(3) {
+  margin-left: 47px;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032757}}
+div.personal .container .main div.right div.list p.eli {
+  width: 220px;
+  height: 38px;
+  position: relative;
+  font-size: 12px;
+  color: #333;
+  overflow: hidden;
+  text-align: justify;
+  line-height: 16px;
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032768}}
+div.personal .container .main div.right div.list p.fir {
+  margin-left: 96px;
+  margin-top: 10px;
+  margin-right: 106px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032773}}
+div.personal .container .main div.right div.list p.third {
+  margin: 10px 6px 0 232px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032776}}
+div.personal .container .main div.right div.list .mt {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032789}}
+div.personal .container .main div.right div.center {
+  width: 792px;
+  border-bottom: 2px solid #efefef;
+  height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032793}}
+div.personal .container .main div.right div.center span {
+  display: inline-block;
+  border-bottom: 2px solid #3a3a3a;
+  line-height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032799}}
+div.personal .container .main div.right div.inp {
+  margin-top: 30px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032802}}
+div.personal .container .main div.right div.inp label {
+  font-size: 14px;
+  color: #999;
+  margin-right: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032807}}
+div.personal .container .main div.right div.inp input {
+  width: 300px;
+  height: 46px;
+  border: 1px solid #eeeeee;
+  background-color: transparent;
+  text-indent: 10px;
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032815}}
+div.personal .container .main div.right div.inp span {
+  color: #15213d;
+  font-size: 14px;
+  margin: 0 20px 0 10px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032821}}
+div.personal .container .main div.right div.inp button {
+  width: 70px;
+  height: 34px;
+  background-color: #cda550;
+  color: #fff;
+  border: none;
+  outline: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032831}}
+div.personal .container .main div.right div.inp i {
+  color: #ff0000;
+  font-size: 12px;
+  position: absolute;
+  top: 60px;
+  left: 96px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032838}}
+div.personal .container .main div.right div.inp b {
+  color: #ff0000;
+  font-size: 14px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032845}}
+div.personal .container .main div.right div.inp:nth-of-type(3) input {
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032849}}
+div.personal .container .main div.right .mr_52 {
+  margin-right: 52px!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032852}}
+div.personal .container .main div.right .mr_24 {
+  margin-right: 24px!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032855}}
+div.personal .container .main div.right .mb_70 {
+  margin-bottom: 70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032858}}
+div.personal .container .main div.right div.changepw {
+  color: #15213d;
+  cursor: pointer;
+  margin-top: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032863}}
+div.personal .container .main div.right div.apply_inp {
+  width: 380px;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032866}}
+div.personal .container .main div.right div.apply_inp span {
+  font-size: 16px;
+  color: #666666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032869}}
+div.personal .container .main div.right div.apply_inp span i {
+  color: #ff0000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032873}}
+div.personal .container .main div.right div.apply_inp input {
+  margin-top: 10px;
+  width: 380px;
+  height: 46px;
+  border: 1px solid #eee;
+  text-indent: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032881}}
+div.personal .container .main div.right div.apply_inp.sc {
+  position: absolute;
+  top: 72px;
+  left: 440px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032886}}
+div.personal .container .main div.right p.notic {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032891}}
+div.personal .container .main div.right p.notic i {
+  color: #ff0000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032895}}
+div.personal .container .main div.right img.up {
+  margin-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032898}}
+div.personal .container .main div.right p.s {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032902}}
+div.personal .container .main div.right img.mr {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032905}}
+div.personal .container .main div.right button.s {
+  width: 140px;
+  height: 40px;
+  background-color: #cda550;
+  color: #fff;
+  border: none;
+  outline: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032923}}
+.center_public {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032926}}
+.center_public p {
+  font-size: 16px;
+  color: #737373;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032930}}
+.center_public p i {
+  margin-right: 5px;
+  color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032935}}
+.center_public div.border {
+  height: 20px;
+  width: 852px;
+  margin-left: -30px;
+  background-color: #f5f5f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032941}}
+.center_public div.center_public_second {
+  width: 100%;
+  padding-top: 50px;
+  position: relative;
+  margin-bottom: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032946}}
+.center_public div.center_public_second span.p_span {
+  color: #666;
+  margin-bottom: 20px;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032950}}
+.center_public div.center_public_second span.p_span em {
+  color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032954}}
+.center_public div.center_public_second .p_span_second {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032960}}
+.center_public div.center_public_second .mb {
+  margin-bottom: 36px;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032964}}
+.center_public div.center_public_second textarea {
+  width: 788px!important;
+  height: 88px!important;
+  resize: none;
+  background-color: #fafafa;
+  border-color: #eeeeee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032972}}
+.center_public div.center_public_second p.pub_p span {
+  display: inline-block;
+  width: 105px;
+  height: 30px;
+  line-height: 30px!important;
+  text-align: center;
+  color: #15213d;
+  border: 1px solid #15213d;
+  border-radius: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032983}}
+.center_public div.center_public_second p.select_one {
+  color: #333333!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032985}}
+.center_public div.center_public_second p.select_one span {
+  width: auto!important;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032989}}
+.center_public div.center_public_second p.select_one b {
+  position: static!important;
+  color: #333!important;
+  font-size: 14px!important;
+  border: none!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000032996}}
+.center_public div.center_public_second button {
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #cda550;
+  border: none;
+  border-radius: 10px;
+  outline: 0;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  margin-left: -70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033012}}
+.center_public div.inp {
+  margin-top: 0!important;
+  margin-bottom: 30px;
+  width: 380px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033016}}
+.center_public div.inp label {
+  color: #666!important;
+  font-size: 16px!important;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033021}}
+.center_public div.inp label em {
+  color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033025}}
+.center_public div.inp input.title {
+  width: 788px!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033031}}
+div.dazong_detail div.container {
+  background-color: #f5f5f5;
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033036}}
+div.dazong_detail div.dazong_detail_main {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033041}}
+div.dazong_detail div.dazong_detail_main div.left {
+  width: 780px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033044}}
+div.dazong_detail div.dazong_detail_main div.left div.tit {
+  background-color: #fff;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  border: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033050}}
+div.dazong_detail div.dazong_detail_main div.left div.tit span {
+  display: inline-block;
+  height: 100%;
+  width: 114px;
+  text-align: center;
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033057}}
+div.dazong_detail div.dazong_detail_main div.left div.tit span.choose {
+  background-color: #15213d;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033062}}
+div.dazong_detail div.dazong_detail_main div.left div.content {
+  background-color: #fff;
+  padding: 30px 0 30px 30px;
+  width: 745px;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033067}}
+div.dazong_detail div.dazong_detail_main div.left div.content .mt_30 {
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033070}}
+div.dazong_detail div.dazong_detail_main div.left div.content h1 {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033073}}
+div.dazong_detail div.dazong_detail_main div.left div.content p:first-of-type {
+  color: #999999;
+  font-size: 14px;
+  margin: 12px 0 30px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033078}}
+div.dazong_detail div.dazong_detail_main div.left div.content p.cs_p {
+  color: #999;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033083}}
+div.dazong_detail div.dazong_detail_main div.left div.content p.cs_p span {
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033087}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.text {
+  width: 680px;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  color: #999;
+  padding: 20px 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  line-height: 30px;
+  text-align: justify;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033098}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.share {
+  position: relative;
+  padding-right: 20px;
+  text-align: right;
+  font-size: 14px;
+  color: #333;
+  margin-top: 30px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033106}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.share img.mr {
+  vertical-align: text-bottom;
+  margin: 0 10px 0 20px!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033111}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.buchong {
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033113}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.buchong span {
+  color: #afafaf;
+  display: inline-block;
+  width: 550px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033121}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.buchong b {
+  margin-left: 30px;
+  width: 104px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #15213d;
+  border: 1px solid #15213d;
+  display: inline-block;
+  text-align: center;
+  border-radius: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033132}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.buchong b img {
+  margin-right: 6px;
+  vertical-align: baseline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033139}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.buchong.nth b {
+  background-color: #15213d;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033144}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper {
+  width: 100%;
+  height: 192px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033148}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper .swiper-container {
+  float: left;
+  width: 340px;
+  height: 192px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033152}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper .swiper-container img {
+  width: 340px;
+  height: 192px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033156}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper .swiper-container b {
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  z-index: 9;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033170}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper .swiper-container b.next {
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033173}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper .swiper-container b.prev {
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033177}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper div.info {
+  float: left;
+  padding: 38px 0 0 38px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033180}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper div.info p {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033183}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper div.info p:first-of-type {
+  font-size: 18px;
+  color: #333;
+  font-weight: bolder;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033187}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper div.info p:first-of-type span {
+  display: inline-block;
+  padding: 4px 6px;
+  color: #ff0000;
+  background-color: #ffe3e3;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-left: 10px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033197}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper div.info p:first-of-type span.wei {
+  color: #999;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033204}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper div.info p:nth-of-type(2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 300px;
+  margin: 12px 0 24px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033211}}
+div.dazong_detail div.dazong_detail_main div.left div.content div.f_swiper div.info button {
+  width: 100px;
+  height: 34px;
+  color: #fff;
+  background-color: #dd514c;
+  border: none;
+  outline: 0;
+  border-radius: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033224}}
+div.dazong_detail div.dazong_detail_main div.right {
+  float: right;
+  width: 385px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033227}}
+div.dazong_detail div.dazong_detail_main div.right div.d_t {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033231}}
+div.dazong_detail div.dazong_detail_main div.right div.d_t a img {
+  width: 188px;
+  height: 78px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033237}}
+div.dazong_detail div.dazong_detail_main div.right div.d_t a:last-of-type img {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033241}}
+div.dazong_detail div.dazong_detail_main div.right img.pro {
+  margin: 22px 0 30px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033245}}
+div.dazong_detail div.dazong_detail_main div.right div.img_list {
+  width: 100%;
+  height: 218px;
+  position: relative;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033250}}
+div.dazong_detail div.dazong_detail_main div.right div.img_list img {
+  width: 100%;
+  height: 218px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033254}}
+div.dazong_detail div.dazong_detail_main div.right div.img_list p {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: 40px;
+  text-indent: 10px;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033271}}
+div.dijin_baby img.banner {
+  width: 100%;
+  height: 234px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033275}}
+div.dijin_baby div.main {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033281}}
+div.dijin_baby div.main button {
+  width: 140px;
+  height: 40px;
+  background-color: #cda550;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  outline: 0;
+  border: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  bottom: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033296}}
+div.dijin_baby div.main div.call_container {
+  padding-left: 30px;
+  padding-top: 54px;
+  width: 1170px;
+  background-color: #fff;
+  overflow: hidden;
+  margin: 0px auto 30px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033303}}
+div.dijin_baby div.main div.call_container h1 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033308}}
+div.dijin_baby div.main div.call_container span {
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033310}}
+div.dijin_baby div.main div.call_container span i {
+  color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033314}}
+div.dijin_baby div.main div.call_container div.inp {
+  width: 554px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033319}}
+div.dijin_baby div.main div.call_container div.inp label {
+  color: #666666;
+  margin-bottom: 10px;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033323}}
+div.dijin_baby div.main div.call_container div.inp label i {
+  color: red;
+  margin-right: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033328}}
+div.dijin_baby div.main div.call_container div.inp input {
+  width: 100%;
+  height: 46px;
+  background-color: transparent;
+  border: 1px solid #eee;
+  outline: 0;
+  text-indent: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033337}}
+div.dijin_baby div.main div.call_container textarea {
+  margin-top: 10px;
+  width: 1122px;
+  height: 191px;
+  background-color: #fafafa;
+  resize: none;
+  padding-top: 15px;
+  padding-left: 18px;
+  border-color: #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033347}}
+div.dijin_baby div.main div.call_container h2 {
+  font-size: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033350}}
+div.dijin_baby div.main div.call_container h2 span {
+  color: #999999;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033353}}
+div.dijin_baby div.main div.call_container h2 span i {
+  color: #cda550;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033358}}
+div.dijin_baby div.main div.call_container div.datepicker {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 26px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033364}}
+div.dijin_baby div.main div.call_container div.datepicker p {
+  font-size: 14px;
+  color: #999;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033369}}
+div.dijin_baby div.main div.call_container div.datepicker p b {
+  margin: 0 5px 0 5px;
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033379}}
+div.jinzhu img.banner_pic {
+  width: 100%;
+  height: 235px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033383}}
+div.jinzhu div.main {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 130px;
+  background-color: #f5f5f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033388}}
+div.jinzhu div.main div.con {
+  width: 1200px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033391}}
+div.jinzhu div.main div.con div.nav {
+  background-color: #fff;
+  height: 45px;
+  width: 100%;
+  margin-bottom: 30px;
+  border: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033397}}
+div.jinzhu div.main div.con div.nav span {
+  display: inline-block;
+  width: 115px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033404}}
+div.jinzhu div.main div.con div.nav span.choose {
+  background-color: #15213d;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033409}}
+div.jinzhu div.main div.con div.pic_con.mb_20 {
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033412}}
+div.jinzhu div.main div.con div.pic_con {
+  width: 100%;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033415}}
+div.jinzhu div.main div.con div.pic_con div.center {
+  width: 1140px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033418}}
+div.jinzhu div.main div.con div.pic_con div.center div.h {
+  height: 80px;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033422}}
+div.jinzhu div.main div.con div.pic_con div.center div.h i {
+  position: absolute;
+  left: -30px;
+  top: 34px;
+  border-left: 5px solid #cda550;
+  height: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033429}}
+div.jinzhu div.main div.con div.pic_con div.center div.h span:first-of-type {
+  float: left;
+  line-height: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033433}}
+div.jinzhu div.main div.con div.pic_con div.center div.h span:last-of-type {
+  background-color: #cda550;
+  color: #fff;
+  float: right;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: 27px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033446}}
+div.jinzhu div.main div.con div.pic_con div.center ul {
+  margin-top: 30px;
+  width: 100%;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033450}}
+div.jinzhu div.main div.con div.pic_con div.center ul li {
+  position: relative;
+  width: 210px;
+  height: 310px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033457}}
+div.jinzhu div.main div.con div.pic_con div.center ul li:nth-of-type(5) {
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033458}}
+div.jinzhu div.main div.con div.pic_con div.center ul li:last-of-type {
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033459}}
+div.jinzhu div.main div.con div.pic_con div.center ul li img {
+  width: 210px;
+  height: 262px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033463}}
+div.jinzhu div.main div.con div.pic_con div.center ul li p {
+  width: 100%;
+  height: 78px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 184px;
+  left: 0;
+  text-align: center;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033470}}
+div.jinzhu div.main div.con div.pic_con div.center ul li p i {
+  height: 36px;
+  line-height: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033474}}
+div.jinzhu div.main div.con div.pic_con div.center ul li p b {
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033478}}
+div.jinzhu div.main div.con div.pic_con div.center ul li div.tuijian {
+  width: 100%;
+  height: 40px;
+  background-color: #cda550;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  margin-top: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033489}}
+div.jinzhu div.main div.con div.pic_con div.center div.more_daka {
+  width: 1140px;
+  height: 60px;
+  margin: 0 auto;
+  line-height: 60px;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033497}}
+div.jinzhu div.main div.con div.pic_con div.center div.list {
+  width: 100%;
+  height: 230px;
+  border-bottom: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033501}}
+div.jinzhu div.main div.con div.pic_con div.center div.list:last-of-type {
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033502}}
+div.jinzhu div.main div.con div.pic_con div.center div.list img {
+  width: 166px;
+  height: 166px;
+  float: left;
+  margin-top: 33px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033510}}
+div.jinzhu div.main div.con div.pic_con div.center div.list p {
+  width: 746px;
+  height: 100%;
+  float: left;
+  line-height: 26px;
+  text-align: justify;
+  color: #999;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033518}}
+div.jinzhu div.main div.con div.pic_con div.center div.list p i {
+  display: block;
+  height: 83px;
+  line-height: 94px;
+  color: #333;
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033526}}
+div.jinzhu div.main div.con div.pic_con div.center div.list button {
+  float: right;
+  width: 100px;
+  height: 34px;
+  background-color: #cda550;
+  text-align: center;
+  line-height: 34px;
+  color: #fff;
+  border-radius: 6px;
+  outline: 0;
+  border: none;
+  margin: 96px 0 0 68px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033546}}
+div.pp_detail div.main {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 130px;
+  background-color: #f5f5f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033551}}
+div.pp_detail div.main div.con {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033555}}
+div.pp_detail div.main div.con div.left {
+  float: left;
+  width: 780px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033558}}
+div.pp_detail div.main div.con div.left div.markdown {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033562}}
+div.pp_detail div.main div.con div.left div.markdown div.t_h {
+  height: 80px;
+  line-height: 80px;
+  margin-left: 30px;
+  position: relative;
+  font-size: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033568}}
+div.pp_detail div.main div.con div.left div.markdown div.t_h i {
+  height: 14px;
+  border-left: 5px solid #cda550;
+  position: absolute;
+  left: -30px;
+  top: 33px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033576}}
+div.pp_detail div.main div.con div.left div.markdown p {
+  padding: 30px 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033580}}
+div.pp_detail div.main div.con div.left div.l {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #eee;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033585}}
+div.pp_detail div.main div.con div.left div.l div.t_h {
+  height: 80px;
+  line-height: 80px;
+  margin-left: 30px;
+  position: relative;
+  font-size: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033591}}
+div.pp_detail div.main div.con div.left div.l div.t_h i {
+  height: 14px;
+  border-left: 5px solid #cda550;
+  position: absolute;
+  left: -30px;
+  top: 33px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033600}}
+div.pp_detail div.main div.con div.left div.l_item {
+  width: 750px;
+  height: 170px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 30px 0 0 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033609}}
+div.pp_detail div.main div.con div.left div.l_item p span {
+  margin-right: 10px;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  border: 1px solid #cda550;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 4px;
+  color: #cda550;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033621}}
+div.pp_detail div.main div.con div.left div.l_item p b {
+  display: inline-block;
+  width: 492px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: top;
+  margin-right: 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033632}}
+div.pp_detail div.main div.con div.left div.l_item p i {
+  color: #999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033636}}
+div.pp_detail div.main div.con div.left div.l_item div.info {
+  margin-top: 30px;
+  width: 466px;
+  height: 86px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033640}}
+div.pp_detail div.main div.con div.left div.l_item div.info span {
+  display: inline-block;
+  width: 150px;
+  font-size: 14px;
+  color: #999999;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033649}}
+div.pp_detail div.main div.con div.left div.l_item div.info span i {
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033654}}
+div.pp_detail div.main div.con div.left div.l_item button {
+  width: 100px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  color: #fff;
+  position: absolute;
+  top: 90px;
+  right: 80px;
+  border: none;
+  outline: 0;
+  border-radius: 6px;
+  background-color: #dd514c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033670}}
+div.pp_detail div.main div.con div.right {
+  float: right;
+  width: 385px;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033674}}
+div.pp_detail div.main div.con div.right div.t {
+  height: 44px;
+  width: 361px;
+  line-height: 44px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 22px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033682}}
+div.pp_detail div.main div.con div.right div.t i {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  height: 15px;
+  border-left: 5px solid #cda550;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033690}}
+div.pp_detail div.main div.con div.right div.l_con {
+  width: 325px;
+  height: 135px;
+  padding: 0 30px 0 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033695}}
+div.pp_detail div.main div.con div.right div.l_con div {
+  height: 100%;
+  border-bottom: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033699}}
+div.pp_detail div.main div.con div.right div.l_con img {
+  margin-top: 30px;
+  width: 80px;
+  height: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033704}}
+div.pp_detail div.main div.con div.right div.l_con p {
+  width: 220px;
+  height: 70px;
+  display: inline-block;
+  margin-top: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033716}}
+div.living div.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033719}}
+div.living div.main div.title {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033723}}
+div.living div.main div.title p {
+  font-size: 14px;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033727}}
+div.living div.main div.title p:first-of-type {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033732}}
+div.living div.main div.title p:nth-of-type(2) {
+  margin: 20px 0 60px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033734}}
+div.living div.main div.title p:nth-of-type(2) span {
+  color: #cda550;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033739}}
+div.living div.main div.live_view {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033743}}
+div.living div.main div.live_view div.left {
+  margin-right: 20px;
+  float: left;
+  width: 200px;
+  height: 100%;
+  background-color: #1e3059;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033749}}
+div.living div.main div.live_view div.left div {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  border-bottom: 1px solid #2b4580;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033754}}
+div.living div.main div.live_view div.left div p {
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  top: 24px;
+  left: 36px;
+  width: 160px;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033761}}
+div.living div.main div.live_view div.left div span {
+  position: absolute;
+  top: 27px;
+  left: 10px;
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033767}}
+div.living div.main div.live_view div.left div span i {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -4px;
+  margin-top: -4px;
+  background-color: #cda550;
+  border-radius: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033779}}
+div.living div.main div.live_view div.left div span.green i {
+  background-color: #16bf00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033782}}
+div.living div.main div.live_view div.left div span.grey i {
+  background-color: #999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033787}}
+div.living div.main div.live_view div.middle {
+  float: left;
+  width: 660px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033790}}
+div.living div.main div.live_view div.middle div.h {
+  width: 100%;
+  height: 40px;
+  background-color: #eeeeee;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033795}}
+div.living div.main div.live_view div.middle div.h p {
+  width: 50%;
+  height: 100%;
+  float: left;
+  line-height: 40px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033801}}
+div.living div.main div.live_view div.middle div.h p.choose {
+  background-color: #15213d;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033807}}
+div.living div.main div.live_view div.middle div.view {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033809}}
+div.living div.main div.live_view div.middle div.view p {
+  width: 100%;
+  height: 54px;
+  line-height: 54px;
+  font-size: 16px;
+  color: #15213d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033815}}
+div.living div.main div.live_view div.middle div.view p span {
+  display: inline-block;
+  width: 56px;
+  height: 30px;
+  border: 1px solid #cda550;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  color: #cda550;
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033827}}
+div.living div.main div.live_view div.middle div.view div.t_head {
+  height: 60px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033831}}
+div.living div.main div.live_view div.middle div.view div.t_head span {
+  float: left;
+  width: 86px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033839}}
+div.living div.main div.live_view div.middle div.view div.t_head span:nth-of-type(5) {
+  line-height: 20px;
+  padding-top: 10px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033844}}
+div.living div.main div.live_view div.middle div.view div.t_head span:nth-of-type(3) {
+  width: 110px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033849}}
+div.living div.main div.live_view div.middle div.view div.list {
+  width: 100%;
+  height: 410px;
+  overflow: auto ;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033853}}
+div.living div.main div.live_view div.middle div.view div.list ul {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033855}}
+div.living div.main div.live_view div.middle div.view div.list ul li {
+  width: 644px;
+  padding-right: 10px;
+  height: 40px;
+  line-height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033860}}
+div.living div.main div.live_view div.middle div.view div.list ul li span {
+  float: left;
+  width: 86px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033868}}
+div.living div.main div.live_view div.middle div.view div.list ul li span:nth-of-type(3) {
+  width: 110px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033872}}
+div.living div.main div.live_view div.middle div.view div.list ul li:nth-of-type(2n) {
+  height: 40px;
+  background-color: #f5f5f5;
+  border: 1px solid #eee;
+  border-right: none;
+  border-left: none;
+  text-align: right;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033884}}
+div.living div.main div.live_view div.middle div.view p.bottom {
+  height: 36px;
+  line-height: 36px;
+  background-color: #f5f5f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033891}}
+div.living div.main div.live_view div.right {
+  float: right;
+  width: 300px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033899}}
+div.dijinquan div.con_top {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033904}}
+div.dijinquan div.con_top div.main {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033908}}
+div.dijinquan div.con_top div.main div.three_img {
+  width: 100%;
+  height: 340px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033914}}
+div.dijinquan div.con_top div.main div.three_img div {
+  float: left;
+  background-color: #fff;
+  width: 380px;
+  height: 340px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033920}}
+div.dijinquan div.con_top div.main div.three_img div:nth-of-type(2) {
+  margin: 0 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033923}}
+div.dijinquan div.con_top div.main div.three_img div img {
+  width: 380px;
+  height: 196px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033927}}
+div.dijinquan div.con_top div.main div.three_img div i {
+  position: absolute;
+  width: 40px;
+  border-bottom: 3px solid #cda550;
+  top: 255px;
+  left: 50%;
+  margin-left: -20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033935}}
+div.dijinquan div.con_top div.main div.three_img div h5 {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033942}}
+div.dijinquan div.con_top div.main div.three_img div p {
+  padding: 0 30px 0 30px;
+  color: #999;
+  text-align: justify;
+  white-space: nowrap;
+  line-height: 20px;
+  overflow: hidden;
+  width: 330px;
+  text-overflow: ellipsis;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033960}}
+div.dijinquan div.con_middle {
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 200px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033965}}
+div.dijinquan div.con_middle button {
+  position: absolute;
+  left: 50%;
+  bottom: 120px;
+  margin-left: -72px;
+  width: 144px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: 0;
+  background: transparent;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033980}}
+div.dijinquan div.con_middle div.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033983}}
+div.dijinquan div.con_middle div.main div.h {
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033987}}
+div.dijinquan div.con_middle div.main div.h div {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033989}}
+div.dijinquan div.con_middle div.main div.h div span {
+  width: 100px;
+  display: inline-block;
+  margin-right: 70px;
+  line-height: 69px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000033996}}
+div.dijinquan div.con_middle div.main div.h div span.choose {
+  border-bottom: 2px solid #cda550;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034001}}
+div.dijinquan div.con_middle div.main div.m {
+  width: 100%;
+  padding-top: 30px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034005}}
+div.dijinquan div.con_middle div.main div.m div {
+  float: left;
+  border: 1px solid #eee;
+  width: 380px;
+  height: 316px;
+  margin-right: 27px;
+  margin-bottom: 26px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034012}}
+div.dijinquan div.con_middle div.main div.m div:nth-of-type(3) {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034013}}
+div.dijinquan div.con_middle div.main div.m div:last-of-type {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034014}}
+div.dijinquan div.con_middle div.main div.m div img {
+  width: 380px;
+  height: 196px;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034019}}
+div.dijinquan div.con_middle div.main div.m div span {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 14px;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034025}}
+div.dijinquan div.con_middle div.main div.m div p {
+  width: 328px;
+  height: 50px;
+  margin: 20px 0 0 20px;
+  line-height: 26px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034032}}
+div.dijinquan div.con_middle div.main div.m div p i {
+  height: 18px;
+  border-left: 4px solid #cda550;
+  position: absolute;
+  top: 5px;
+  left: -20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034046}}
+div.shequn div.con {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034051}}
+div.shequn div.con div.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034054}}
+div.shequn div.con div.main div.editer {
+  width: 100%;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034057}}
+div.shequn div.con div.main div.editer div.tit {
+  margin: 0 auto;
+  width: 1114px;
+  height: 90px;
+  padding: 50px 0 50px 0;
+  border-bottom: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034063}}
+div.shequn div.con div.main div.editer div.tit p {
+  width: 1080px;
+  height: 90px;
+  margin: 0 auto;
+  font-size: 36px;
+  line-height: 48px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034083}}
+div.shequn div.con div.main div.editer div.content {
+  width: 100%;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034086}}
+div.shequn div.con div.main div.editer div.content div.center {
+  width: 790px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034093}}
+div.shequn div.con div.main div.editer div.content div.center img {
+  max-width: 790px;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034105}}
+div.dj_detail div.main {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 30px 0 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034109}}
+div.dj_detail div.main div.con {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034113}}
+div.dj_detail div.main div.con div.nav {
+  background-color: #fff;
+  height: 45px;
+  width: 100%;
+  border: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034118}}
+div.dj_detail div.main div.con div.nav span {
+  display: inline-block;
+  width: 115px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034125}}
+div.dj_detail div.main div.con div.nav span.choose {
+  background-color: #15213d;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034130}}
+div.dj_detail div.main div.con div.title {
+  padding-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034132}}
+div.dj_detail div.main div.con div.title p:first-of-type {
+  font-size: 22px;
+  text-indent: 20px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034136}}
+div.dj_detail div.main div.con div.title p:first-of-type i {
+  height: 16px;
+  border-right: 5px solid #cca550;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034143}}
+div.dj_detail div.main div.con div.title p:last-of-type {
+  width: 1100px;
+  text-align: justify;
+  margin-left: 20px;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034152}}
+div.dj_detail div.main div.con div.list {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 30px 0 0 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034157}}
+div.dj_detail div.main div.con div.list div {
+  width: 380px;
+  height: 320px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034163}}
+div.dj_detail div.main div.con div.list div:nth-of-type(3n-1) {
+  margin: 0 30px 0 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034164}}
+div.dj_detail div.main div.con div.list div img {
+  width: 100%;
+  height: 200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034168}}
+div.dj_detail div.main div.con div.list div p:first-of-type {
+  width: 380px;
+  height: 50px;
+  line-height: 50px;
+  text-indent: 20px;
+  font-size: 14px;
+  color: #666;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034176}}
+div.dj_detail div.main div.con div.list div p:first-of-type i {
+  height: 16px;
+  border-right: 5px solid #cca550;
+  position: absolute;
+  top: 53px;
+  left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Wnmp\/html\/edijin\/assets\/less\/style\.less}line{font-family:\000034182}}
+div.dj_detail div.main div.con div.list div p:last-of-type {
+  margin-left: 13px;
+  position: relative;
+  width: 360px;
+  text-align: justify;
+  line-height: 20px;
+}
